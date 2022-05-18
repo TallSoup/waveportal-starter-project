@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { ethers } from 'ethers';
+// import { ethers } from 'ethers';
 import './App.css';
 
 export default function App() {
@@ -8,7 +8,12 @@ export default function App() {
   return (
     <div className='mainContainer'>
       <div className='dataContainer'>
-        <div className='header'>👋 Hello friend!</div>
+        <div className='header'>
+          <span role='img' aria-label='wave emoji'>
+            👋
+          </span>{' '}
+          Hello friend!
+        </div>
 
         <div className='bio'>
           I'm Andrew and I'm learning about Smart Contracts with Solidity.
